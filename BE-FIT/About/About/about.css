@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("#");
+  height: fit-content;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  backdrop-filter: blur(1px);
+  background-position: center;
+  padding: 9rem;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+  font-size: 45px;
+}
+
+.about {
+  text-align: center;
+}
+
+.about ul li {
+  margin: 0.5rem 0rem;
+  list-style: none;
+}
+
+h2 {
+  margin-top: 1.5rem;
+  font-size: 30px;
+  font-weight: 400;
+}
+ul li {
+  padding: 0 10px;
+  margin: 1rem 0;
+  list-style: none;
+}
+
+.whoweare {
+  text-align: center;
+  padding: 0 10px;
+}
+
+.whoweare h2 {
+  margin-top: 2rem;
+  font-size: 30px;
+}
+
+.ourcompany {
+  text-align: center;
+  font-size: 30px;
+}
+
+.ourcompany a {
+  color: #175895;
+  border-bottom: none;
+  font-size: large;
+  margin-bottom: 10px;
+}
+
+a.left {
+  font-size: medium;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+a.right {
+  font-size: medium;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: rgb(0, 38, 255);
+  margin: 30px;
+}
